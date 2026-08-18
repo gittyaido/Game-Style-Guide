@@ -1,3 +1,12 @@
+// GENERAL PRINCIPLES:
+// | Keep things readable at a glance. Readability > brevity
+// | Use your judgement. If it doesnt make sense to abide by a convention in some instance, then dont use it
+// | NO AI SLOP. AI is a tool, not the guy you paid to do your homework
+
+// COMMENTS:
+// | If you have to use comments for something to make sense, consider refactoring it 
+// | The naming of methods and variables should make it clear what they are and how they are used
+
 // USING LINES:
 // | Keep these at the top of the file
 // | Remove unused dependencies
