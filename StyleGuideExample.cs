@@ -1,9 +1,8 @@
-//USING
-using System;
+// USING LINES:
+// | Keep these at the top of the file
+// | Remove unused dependencies
 using System.Collections.Generic;
 using UnityEngine;
-
-
 
 
 namespace StyleGuideExample 
