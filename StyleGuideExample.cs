@@ -1,11 +1,10 @@
-
+//USING
 using System;
 using System.Collections.Generic;
 using UnityEngine;
 
 
-// Based on this style guide. Some conventions are different though.
-// https://github.com/thomasjacobsen-unity/Unity-Code-Style-Guide/blob/master/StyleExample.cs
+
 
 namespace StyleGuideExample 
 {
