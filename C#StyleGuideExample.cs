@@ -1,3 +1,8 @@
+// Based on this style guide. Some conventions are different though. 
+// https://github.com/thomasjacobsen-unity/Unity-Code-Style-Guide/blob/master/StyleExample.cs
+
+
+
 // GENERAL PRINCIPLES:
 // | Keep things readable at a glance. Readability > brevity
 // | Use your judgement. If it doesnt make sense to abide by a convention in some instance, then dont use it
