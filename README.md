@@ -1,8 +1,12 @@
 # Game-Style-Guide
 
-Based on this style guide. Some conventions are different though.
-https://github.com/thomasjacobsen-unity/Unity-Code-Style-Guide/blob/master/StyleExample.cs
+## Index
+[Code Style Guide](C#StyleGuideExample.cs)
+[File Structure](FileStructure.md)
 
-I put this together by hand. It isnt comprehensive but its a start. 
+## Public Resources
+You can take a look at these. A lot will differ from our specific style guide but for general principles you might find them useful 
 
-If you disagree with any convention lmk and we can discuss changing it
+[Organizing Your Project](https://unity.com/how-to/organizing-your-project#folder-structure)
+[Unity Code Style Guide](https://github.com/thomasjacobsen-unity/Unity-Code-Style-Guide/tree/master)
+
