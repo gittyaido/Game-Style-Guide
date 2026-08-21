@@ -1,8 +1,7 @@
-# Game-Style-Guide
+# Code-Architecture-Guide
 
-Based on this style guide. Some conventions are different though.
-https://github.com/thomasjacobsen-unity/Unity-Code-Style-Guide/blob/master/StyleExample.cs
+Here is a quick outline of general code architecture practices we will try to abide by.
 
-I put this together by hand. It isnt comprehensive but its a start. 
+## General Principles
 
-If you disagree with any convention lmk and we can discuss changing it
+I will not be overly strict about code architecture, but in general try to make 
