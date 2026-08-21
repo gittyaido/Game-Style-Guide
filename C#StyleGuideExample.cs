@@ -87,7 +87,7 @@ namespace StyleGuideExample
         // | PascalCase for method name
         // | camelCase for parameters
         // | expression-body format for simple one-line methods that you know will not expand in complexity
-        // | Avoid writing a method with too many parameters, pack into struct or class if needed
+        // | Avoid writing a method with too many parameters, pack into struct or class if needed. Or use builder pattern
         // | In MonoBehavior classes, place life cycle methods ahead of custom methods
         // | Empty methods (for undefined overridden abstract methods) open and close braces {} on the same line
 
