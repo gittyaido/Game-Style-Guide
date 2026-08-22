@@ -71,13 +71,13 @@ _Note. these concepts are kinda hard to communicate in bullet points. I highly r
 
 ## MonoBehavior Lifecycle Uses
 
-Awake() -> used for initialization only. GetComponent() etc
+**Awake()** -> used for initialization only. GetComponent() etc
 
-Start() -> interface with external dependencies/runtime setup
+**Start()** -> interface with external dependencies/runtime setup
 
-Update() -> avoid adding logic here directly. Delegate behavior into helper methods
+**Update()** -> avoid adding logic here directly. Delegate behavior into helper methods
 
-FixedUpdate() -> for physics processes only 
+**FixedUpdate()** -> for physics processes only 
 
 
 
