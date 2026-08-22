@@ -131,6 +131,26 @@ namespace StyleGuideExample
         {
             // do something...
         }
+
+
+    }
+
+
+    //SCRIPTABLE OBJECTS:
+    // | Used as a data container, configuration settings, and events. (plus maybe some more use cases who knows)
+    // | To create a scriptable object instance, include the CreateAssetMenu attribute and follow the below template
+    [CreateAssetMenu(fileName = "Default File Name", menuName = "File/Path/In/Create/Menu")]
+    public class MyScriptableObject : ScriptableObject 
+    {
+        [SerializeField] float maxHp;
+        
+        
+        // Scriptable objects can contain functionality too
+        public float GetMaxHp() 
+        {
+            return maxHp;
+        }
+        
     }
 
 
