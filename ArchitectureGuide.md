@@ -7,7 +7,7 @@ I will not be overly strict about code architecture, but try to make things easy
 First, see [Code Style Guide](C#StyleGuideExample.cs) for general code best practices.
 
 
-_As Always, let me know if you have questions, concerns, or suggestions. I want everyone to feel comfortable with the workflow of this project._
+_As Always, let me know if you have questions, concerns, or suggestions. I want everyone to feel good with the workflow of this project._
 
 
 ## General Principles
