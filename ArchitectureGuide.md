@@ -16,6 +16,7 @@ _As Always, let me know if you have questions, concerns, or suggestions. I want 
 
 ### Readable
 - Write descriptive variable and function names. _(written in such a way that makes comments redundant)_
+  
 - Avoid messy dependencies. Ideally the dependencies of a function are included in its signature
 
 ### and
