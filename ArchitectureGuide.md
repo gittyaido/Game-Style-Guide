@@ -61,7 +61,9 @@ A created GameEvent scriptable object will serve as a "channel" for event listen
 Try your best to write [Honest Functions](https://www.youtube.com/watch?v=2OMRWPOSw9s). 
 
 -Limit external dependencies. Prefer to inject dependencies over getting them from class scoped references.
+
 -Separate functions that calculate data and ones that mutate data
+
 -Functions should only operate on one level of abstraction. _(add helper functions for substeps in a problem)_
 
 _Note. these concepts are kinda hard to communicate in bullet points. I highly recommend watching the video above if you have the time._
