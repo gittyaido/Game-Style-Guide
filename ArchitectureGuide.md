@@ -94,6 +94,7 @@ Balancing values should be easy for designers. They should not have to hunt thro
  
 ex. 
 
+'''C#
 [CreateAssetMenu("...")]
 public class HealthData : ScriptableObject
 {
@@ -113,7 +114,7 @@ public class HealthComponent : MonoBehavior
   //...
 }
 
-
+'''
 
 
 ## AI Use
