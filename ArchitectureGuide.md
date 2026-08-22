@@ -60,11 +60,11 @@ A created GameEvent scriptable object will serve as a "channel" for event listen
 
 Try your best to write [Honest Functions](https://www.youtube.com/watch?v=2OMRWPOSw9s). 
 
--Limit external dependencies. Prefer to inject dependencies over getting them from class scoped references.
+- Limit external dependencies. Prefer to inject dependencies over getting them from class scoped references.
 
--Separate functions that calculate data and ones that mutate data
+- Separate functions that calculate data and ones that mutate data
 
--Functions should only operate on one level of abstraction. _(add helper functions for substeps in a problem)_
+- Functions should only operate on one level of abstraction. _(add helper functions for substeps in a problem)_
 
 _Note. these concepts are kinda hard to communicate in bullet points. I highly recommend watching the video above if you have the time._
 
@@ -101,17 +101,17 @@ Now that being said. It has its uses, just be generally mindful.
 
 ### Good Uses 
 
--Prompting AI to kickstart the ideation phase of some new system. Have it brainstorm architecture/structure ideas, instead of having it implement whole systems.
--Filling out boiler plate
--Complete algorithms that are already well documented and do not require creativity to implement.
--Tedious renaming and (simple) refactors 
--Debugging
+- Prompting AI to kickstart the ideation phase of some new system. Have it brainstorm architecture/structure ideas, instead of having it implement whole systems.
+- Filling out boiler plate
+- Complete algorithms that are already well documented and do not require creativity to implement.
+- Tedious renaming and (simple) refactors 
+- Debugging
 
 ### Bad Uses
--"vibe coding" 
--Prompting high level requests and having ai write all the code for you 
--Anything art, animation, or writing related. 
--ctr A, ctr C, ctr V
+- "vibe coding" 
+- Prompting high level requests and having ai write all the code for you 
+- Anything art, animation, or writing related. 
+- ctr A, ctr C, ctr V
 
 _Note. If you have an AI agent built into your IDE (which you most definitely do), I strongly recommend against letting it modify your codebase directly (barring inline code suggestions ig). Instead, if you are going to use AI to write any code, have it write it separate from the code base, at which point you can thoughtfully include what you want._
 
