@@ -81,7 +81,37 @@ _Note. these concepts are kinda hard to communicate in bullet points. I highly r
 
 
 
+## Data storing 
 
+try to separate data from functionality. Components that need data should have a corresponding data scriptable object.
+
+Mutable runtime data should be stored within the component
+
+ScriptableObjects are not exclusively for data. They can contain functionality, they just should not modify the gamestate or modify runtime values 
+
+Balancing values should be easy for designers. They should not have to hunt through game objects and components to change balance values. They should be found neatly on the disk.
+
+ 
+ex. 
+
+[CreateAssetMenu("...")]
+public class HealthData : ScriptableObject
+{
+  // compile time data stored in S.O
+  public float maxHp;
+
+  //...
+}
+public class HealthComponent : MonoBehavior
+{
+  [SerializeField] HealthData data;
+  // currentHp is mutable at runtime and is stored in the component
+  float currentHp;
+
+  void Start() => currentHp = data.maxHp;
+
+  //...
+}
 
 
 
