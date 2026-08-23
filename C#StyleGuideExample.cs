@@ -39,7 +39,7 @@ namespace StyleGuideExample
     // | Should be named an adjective that describes functionality 
     public interface ICollectable
     {
-        bool Collect();
+        public bool Collect();
     }
 
     // CLASSES and STRUCTS:
@@ -62,12 +62,12 @@ namespace StyleGuideExample
         // | float values should have the "f" suffix
 
 
-        int examplePrivateField = 1;
-        readonly float floatExample = 5f;
+        private int examplePrivateField = 1;
+        private readonly float floatExample = 5f;
 
         // Use the [SerializeField] attribute to expose private field in the inspector 
         // Avoid using public fields solely for serialization
-        [SerializeField] bool isDead;
+        [SerializeField] private bool isDead;
 
         // Properties: 
         // | Preferzble to a public field
@@ -75,13 +75,12 @@ namespace StyleGuideExample
         // | Use expression-bodied properties if possible (i.e. member => expression)
 
         // Backing field
-        int maxHealth;
+        private int maxHealth;
 
         // Returns backing field
         public int MaxHealthReadonly => maxHealth;
         // Equivalent to:
         public int MaxHealth { get; private set; }
-
 
         // METHODS: 
         // | PascalCase for method name
@@ -92,7 +91,7 @@ namespace StyleGuideExample
         // | Empty methods (for undefined overridden abstract methods) open and close braces {} on the same line
 
 
-        void MethodFormatExample(GameObject objectParameter)
+        private void MethodFormatExample(GameObject objectParameter)
         {
             //LOCALS:
             // | locals should generally be placed above method logic
@@ -142,7 +141,7 @@ namespace StyleGuideExample
     [CreateAssetMenu(fileName = "Default File Name", menuName = "File/Path/In/Create/Menu")]
     public class MyScriptableObject : ScriptableObject 
     {
-        [SerializeField] float maxHp;
+        [SerializeField] private float maxHp;
         
         
         // Scriptable objects can contain functionality too
