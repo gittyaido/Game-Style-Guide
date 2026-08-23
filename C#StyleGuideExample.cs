@@ -140,7 +140,21 @@ namespace StyleGuideExample
 
 
         // LOCAL FUNCTIONS:
-        // | 
+        // | If you are writing a helper function that is only called once by another function,
+        // | Consider placing it within the functions local scope
+        // | Place local function definitions beneath function logic
+        // | Note. If you find adding external helper functions make a class's functionality unclear,
+        // | Think about if the class has too many responsibilities, and consider a refactor
+
+        public void Function() 
+        {
+            // Function logic placed above sub function definitions
+            SubA();
+            SubB();
+
+            void SubA() {...}
+            void SubB() {...}
+        }
         
 
     }
