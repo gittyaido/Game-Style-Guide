@@ -1,5 +1,7 @@
 # Game-Style-Guide
 
+We are using Unity 6.5 (6000.5.8f1)
+
 ## Index
 - [Code Style Guide](C#StyleGuideExample.cs)
 
