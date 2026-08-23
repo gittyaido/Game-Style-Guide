@@ -91,6 +91,7 @@ ScriptableObjects are not exclusively for data. They can contain functionality, 
 
 Balancing values should be easy for designers. They should not have to hunt through game objects and components to change balance values. They should be found neatly on the disk.
 
+_Note. When building a new system, it may be beneficial to create the data structure first, then implement functionality_
  
 ex. 
 
