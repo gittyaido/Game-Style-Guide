@@ -82,6 +82,13 @@ namespace StyleGuideExample
         // Equivalent to:
         public int MaxHealth { get; private set; }
 
+
+        // For serialized fields that are readonly: 
+        [field: SerializeField] public int A {get; private set;}
+        // Instead of:
+        [SerializeField] private int b;
+        public int B => b;
+        
         // METHODS: 
         // | PascalCase for method name
         // | camelCase for parameters
