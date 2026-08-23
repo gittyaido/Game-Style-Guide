@@ -57,7 +57,7 @@ namespace StyleGuideExample
         // | camelCase for all non static or const fields 
         // | Do not use type prefixes (_, m_, s_, k_, etc..)
         // | Mark as readonly if it is not reassigned at runtime or exposed in the inspector
-        // | Omit the "private" access modifier, and other implicit redundnacies 
+        // | Omit the "private" access modifier, and other implicit redundnacies !!!NVM the jury has decided against
         // | Booleans are questions and should be prefixed by a verb
         // | float values should have the "f" suffix
 
