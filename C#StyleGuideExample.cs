@@ -163,6 +163,7 @@ namespace StyleGuideExample
     //SCRIPTABLE OBJECTS:
     // | Used as a data container, configuration settings, and events. (plus maybe some more use cases who knows)
     // | To create a scriptable object instance, include the CreateAssetMenu attribute and follow the below template
+    // | IMPORTANT: Only one CreateAssetMenu per file
     [CreateAssetMenu(fileName = "Default File Name", menuName = "File/Path/In/Create/Menu")]
     public class MyScriptableObject : ScriptableObject 
     {
