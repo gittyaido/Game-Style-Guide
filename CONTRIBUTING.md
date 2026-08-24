@@ -3,8 +3,7 @@ We will be using Unity Version Control for this project.
 
 _Ensure you are using the correct unity version - 6000.5.8f1_
 
-### WATCH THIS VIDEO FIRST
-### [Getting started with Unity VC](https://www.youtube.com/watch?v=9IvXupmgl88&t=308s)
+### [WATCH THIS GUIDE FIRST](https://www.youtube.com/watch?v=9IvXupmgl88&t=308s)
 
 ## Adding Yourself to the Workspace
 
