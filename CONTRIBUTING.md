@@ -26,3 +26,7 @@ We will employ a feature based branching strategy.
 Similar to how Sand of Souls was handled
 
 When merging a new branch, request a code review.
+
+
+
+_Note. Some information in the video linked above is slightly outddated. Notably the pricing model has changed to remove the 3 user limit for the free model_
