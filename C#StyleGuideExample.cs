@@ -97,6 +97,9 @@ namespace StyleGuideExample
         // | In MonoBehavior classes, place life cycle methods ahead of custom methods
         // | Empty methods (for undefined overridden abstract methods) open and close braces {} on the same line
 
+        // LINE BREAKS:
+        // | Avoid double line breaks (ignore all the double line breaks in this file lol) If you want to separate data, use a single line break
+        // | No trailing lines at the end of funcions
 
         private void MethodFormatExample(GameObject objectParameter)
         {
