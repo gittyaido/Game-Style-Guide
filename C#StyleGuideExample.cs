@@ -61,6 +61,19 @@ namespace StyleGuideExample
         // | Booleans are questions and should be prefixed by a verb
         // | float values should have the "f" suffix
 
+        // MEMBER ORDERING:
+        // | When writing a class, follow this rough ordering.
+        // | 0. local class, struct, or enum definitions
+        // | 1. const fields
+        // | 2. static fields
+        // | 3. private SerializeFields
+        // | 4. private readonly fields
+        // | 5. properties (public > protected > private)
+        // | 6. Constructors
+        // | 7. Unity Lifecycle API
+        // | 8. public methods
+        // | 9. private methods
+
 
         private int examplePrivateField = 1;
         private readonly float floatExample = 5f;
