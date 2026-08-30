@@ -18,7 +18,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-
+// NAMESPACES: 
+// | Omit for now. we may revisit this when/if we implement assembly definitions
 namespace StyleGuideExample 
 {
     // ENUMS:
